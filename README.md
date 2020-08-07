@@ -1,8 +1,10 @@
 # fromJSONtoDB
-Created by Jakub Zasada
+Created by Jakub Zasada.
 
 This program was created for the internship assignment at the Profil Software company.
-The program retrieves data from the json file, analyzes it and saves it in the sqlite3 database. Made in Python 3.8.2
+The program retrieves data from the json file, analyzes it and saves it in the sqlite3 database. Made in Python 3.8.2.
+
+The program also removes the 'picture' field from the json file, clears the phone number and adds a column with the number of days until the user's birthday.
 
 How to start:
 
@@ -11,8 +13,9 @@ How to start:
 3. Then install needed libraries:
    pip install click
    pip install peewee
-4. Download this repository
-5. In script.py you can set name of database or json file
+4. Download this repository.
+5. In script.py you can set name of database or json file.
+6. Type python script.py load-json  to run the code.
 
 Available commands (type in the terminal):
 1.  python script.py --help                                    +That will show all available commands.
